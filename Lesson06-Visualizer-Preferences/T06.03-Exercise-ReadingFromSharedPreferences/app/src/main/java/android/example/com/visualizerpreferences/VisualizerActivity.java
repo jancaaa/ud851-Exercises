@@ -51,7 +51,7 @@ public class VisualizerActivity extends AppCompatActivity {
 
     private void setupSharedPreferences() {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-        
+
         mVisualizerView.setShowBass(sharedPreferences.getBoolean("show_bass",true));
         mVisualizerView.setShowMid(true);
         mVisualizerView.setShowTreble(true);
